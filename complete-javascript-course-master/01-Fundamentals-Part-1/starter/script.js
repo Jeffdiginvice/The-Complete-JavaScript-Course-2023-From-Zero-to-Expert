@@ -1,4 +1,4 @@
-let js = "amazing";
+/*let js = "amazing";
 // if (js === "amazing") alert("Javascript is FUN");
 // console.log(40 + 8 + 23 - 10);
 
@@ -46,4 +46,13 @@ console.log(myFirstJob);
  year = 1991;
  console.log(typeof year);
 
- console.log(typeof null);
+ console.log(typeof null)
+ */
+
+ let age = 30;
+ age = 31;
+
+ const birthYear = 1991;
+ birthYear = 1990;
+
+  
