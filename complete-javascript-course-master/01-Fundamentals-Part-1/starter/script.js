@@ -68,13 +68,13 @@ const ageJonas = now - 1991;
   const lastName = 'Schedtman';
   console.log(firstName + ' ' + lastName);
 
-  // assignment operators
-  let x = 10 + 5; //15
-  x += 10; // x = x + 10
-  x *= 4; // x =  x * 4 = 100
-  x++; // x = x + 1
-  x--; // x = x - 1
-  console.log(x);
+  // // assignment operators
+  // // let x = 10 + 5; //15
+  // x += 10; // x = x + 10
+  // x *= 4; // x =  x * 4 = 100
+  // x++; // x = x + 1
+  // x--; // x = x - 1
+  // console.log(x);
 
   // Comparison operators 
 
@@ -86,3 +86,13 @@ const ageJonas = now - 1991;
   const isFullAge = ageSarah >= 18;
 
   console.log(now - 1991 > now - 2018);
+
+  console.log(25 - 10 - 5);
+
+  let x, y;
+  x = y = 25-10-5; // x = y = 10, x = 10
+  console.log(x);
+  
+  const everageAge = (ageJonas + ageSarah) / 2;
+  console.log(ageJonas, ageSarah, everageAge);
+
