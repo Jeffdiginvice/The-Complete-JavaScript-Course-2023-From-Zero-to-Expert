@@ -96,3 +96,21 @@ const ageJonas = now - 1991;
   const everageAge = (ageJonas + ageSarah) / 2;
   console.log(ageJonas, ageSarah, everageAge);
 
+  //Coding Challenge
+
+  // let markMass = 78;
+  // let markHeight = 1.69;
+  // let johnMass = 92;
+  // let johnHeight = 1.95;
+
+  let markMass = 95;
+  let markHeight = 1.88;
+  let johnMass = 85;
+  let johnHeight = 1.76;
+
+ const BMIMark = markMass / markHeight ** 2;
+ const BMIJohn = johnMass / (johnHeight * johnHeight);
+ const markhigherBMI = BMIMark > BMIJohn;
+
+ console.log(BMIMark, BMIJohn, markhigherBMI);
+
