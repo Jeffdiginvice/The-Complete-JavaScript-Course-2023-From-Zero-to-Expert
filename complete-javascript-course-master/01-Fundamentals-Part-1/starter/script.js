@@ -15,7 +15,6 @@
 // // let jonas_matilda = 'JM';
 // // let $function = 27;
 
-
 // // let person = "jonas";
 // // let PI = 3.1415;
 
@@ -27,7 +26,6 @@
 
 // // console.log(myFirstJob);
 
- 
 // //  let javascriptIsFun = true;
 // //  console.log(javascriptIsFun);
 
@@ -39,7 +37,7 @@
 // //  javascriptIsFun = 'yes';
 // //  console.log(javascriptIsFun)
 
-// //  let year; 
+// //  let year;
 // //  console.log(year);
 // //  console.log(typeof year);
 
@@ -55,7 +53,7 @@
 // // //  const birthYear = 1991;
 // // //  birthYear = 1990;
 
-// // const now = 2037;  
+// // const now = 2037;
 // // const ageJonas = now - 1991;
 // //   const ageSarah = now - 2020;
 // //   console.log(ageSarah, ageJonas)
@@ -76,7 +74,7 @@
 // //   // x--; // x = x - 1
 // //   // console.log(x);
 
-// //   // Comparison operators 
+// //   // Comparison operators
 
 // //   // >, <, >=, <=
 // //   console.log(ageJonas > ageSarah);
@@ -92,7 +90,7 @@
 // //   let x, y;
 // //   x = y = 25-10-5; // x = y = 10, x = 10
 // //   console.log(x);
-  
+
 // //   const everageAge = (ageJonas + ageSarah) / 2;
 // //   console.log(ageJonas, ageSarah, everageAge);
 
@@ -129,25 +127,43 @@
 
 // console.log('String with \n\ multiple \n\ lines')
 
-// console.log(`String 
-// multiple 
+// console.log(`String
+// multiple
 // lines`)
 
 const age = 15;
 
-if(age >= 18) {
-  console.log('Sarah can start driving license 🚗')
+if (age >= 18) {
+  console.log("Sarah can start driving license 🚗");
 } else {
   const yearsLeft = 18 - age;
-  console.log(`Sarah is too young. wait another ${yearsLeft} years :`)
+  console.log(`Sarah is too young. wait another ${yearsLeft} years :`);
 }
 
 const birthYear = 2001;
 let century;
-if(birthYear <= 2000) {
+if (birthYear <= 2000) {
   century = 20;
 } else {
   century = 21;
 }
 
 console.log(century);
+
+
+let markMass = 95;
+let markHeight = 1.88;
+let johnMass = 85;
+let johnHeight = 1.76;
+
+const BMIMark = markMass / markHeight ** 2;
+const BMIJohn = johnMass / (johnHeight * johnHeight);
+const markhigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markhigherBMI);
+
+if (BMIMark > BMIJohn) {
+  console.log(`Mark's BMI (${BMIMark}) is higher than John's!`)
+} else {
+  console.log(`John's BMI (${BMIJohn}) is higher than Mark's!`)
+}
