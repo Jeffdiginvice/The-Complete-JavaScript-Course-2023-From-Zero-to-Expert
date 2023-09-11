@@ -71,7 +71,7 @@ switch(day) {
   case 'Sunday':
     console.log('Emjoy the weeked :D');
     break;
-  default:
+  default: 
     console.log('Not a valid day!')
 }
 
